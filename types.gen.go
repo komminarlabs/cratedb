@@ -251,7 +251,7 @@ type Cluster struct {
 	GcAvailable   *bool          `json:"gc_available,omitempty"`
 	HardwareSpecs *HardwareSpecs `json:"hardware_specs"`
 	Health        *struct {
-		LastSeen *time.Time `json:"last_seen,omitempty"`
+		LastSeen *string `json:"last_seen,omitempty"`
 
 		// RunningOperation The type of the currently running operation. Returns an empty string if there is no operation in progress.
 		RunningOperation *ClusterHealthRunningOperation `json:"running_operation,omitempty"`
