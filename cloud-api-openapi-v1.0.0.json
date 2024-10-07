@@ -1001,7 +1001,6 @@
                         },
                         "properties": {
                             "last_seen": {
-                                "format": "date-time",
                                 "type": "string"
                             },
                             "running_operation": {
